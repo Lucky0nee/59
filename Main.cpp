@@ -24,7 +24,7 @@ public:
         if (AllowedSymbol(allowedSymbols, something))
             Vector.push_back(something);
         else
-            cout << "\nSymbol is forbidden, it will not be added to the array\n";
+            cout << "Symbol is forbidden, it will not be added to the array\n\n";
     }
 
 protected:
